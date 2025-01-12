@@ -1,0 +1,22 @@
+<!-- Path: flask_app/templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Code Runner</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Python Code Runner</h1>
+    </header>
+    <main>
+        <textarea id="code" rows="10" cols="50" placeholder="Write your Python code here..."></textarea>
+        <br>
+        <button onclick="runCode()">Run</button>
+        <pre id="output"></pre>
+    </main>
+    <script src="/static/script.js"></script>
+</body>
+</html>
